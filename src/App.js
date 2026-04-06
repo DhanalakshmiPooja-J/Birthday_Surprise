@@ -1,23 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Confetti from "react-confetti";
+import { ReactTyped } from "react-typed";
+import BirthdayCard from "./BirthdayCard";
+import "./App.css";
 
 function App() {
+  const [open, setOpen] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {!open ? (
+        <div className="landing">
+          <button className="btn" onClick={() => setOpen(true)}>
+            🎁 Click for your Birthday Surprise
+          </button>
+        </div>
+      ) : (
+        <>
+          <Confetti />
+
+          <audio autoPlay loop>
+            <source src="/birthdaySong.mp3" type="audio/mp3" />
+          </audio>
+          <BirthdayCard />
+          <div className="typed">
+            <ReactTyped
+              strings={[
+                "Keep shining! 🎉",
+                "Keep smiling always! 😎",
+                "Stay awesome always! 😍",
+               
+              ]}
+              typeSpeed={50}
+              backSpeed={30}
+              loop
+            />
+          </div>
+
+         
+        </>
+      )}
     </div>
   );
 }

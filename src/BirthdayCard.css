@@ -1,0 +1,93 @@
+.card {
+  display: flex;
+  width: 500px;
+  margin: 40px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* LEFT */
+.left {
+  width: 40%;
+}
+
+.left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* RIGHT */
+.right {
+  width: 60%;
+  padding: 40px;
+  text-align: center;
+}
+.center{
+    padding: 30px;
+     text-align: center 
+}
+
+.tag {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 1px solid #ffb3b3;
+  color: #ff6f61;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 38px;
+  font-style: italic;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 10px 0;
+  font-weight: 600;
+  background: linear-gradient(90deg, #ff6a88, #7a5cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title span {
+  display: block;
+  font-size: 42px;
+}
+
+.message {
+  font-size: 15px;
+  color: #6c7a89;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.hearts {
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+.signature {
+  font-style: italic;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 10px;
+  color: #333;
+}
+
+.footer {
+  margin-top: 10px;
+  color: #00b894;
+  font-size: 14px;
+}
+
+/* Gallery */
+.gallery {
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 120px;
+  margin: 5px;
+  border-radius: 10px;
+}
