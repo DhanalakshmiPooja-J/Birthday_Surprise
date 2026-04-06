@@ -75,6 +75,7 @@
   color: #6c7a89;
   line-height: 1.6;
   margin: 15px 0;
+   padding: 20px;
 }
 
 /* HEARTS */
@@ -139,6 +140,7 @@
 
   .message {
     font-size: 13px;
+     padding: 20px;
   }
 
   .gallery img {
@@ -162,6 +164,7 @@
 
   .message {
     font-size: 12px;
+    padding: 20px;
   }
   .center {
     width: 100%;
