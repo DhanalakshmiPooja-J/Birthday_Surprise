@@ -23,7 +23,7 @@ function App() {
             <source src="/birthdaySong.mp3" type="audio/mp3" />
           </audio>
           <BirthdayCard />
-          <div className="typed">
+          {/* <div className="typed">
             <ReactTyped
               strings={[
                 "Keep shining! 🎉",
@@ -35,7 +35,7 @@ function App() {
               backSpeed={30}
               loop
             />
-          </div>
+          </div> */}
 
          
         </>
