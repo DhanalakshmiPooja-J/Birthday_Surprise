@@ -112,6 +112,7 @@
   .center {
     width: 100%;
     padding: 20px;
+
   }
 
   .title {
@@ -133,6 +134,10 @@
 
 /* EXTRA SMALL DEVICES */
 @media (max-width: 480px) {
+     .card {
+    flex-direction: column;
+    border-radius: 15px;
+  }
   .title {
     font-size: 22px;
   }
@@ -143,6 +148,11 @@
 
   .message {
     font-size: 12px;
+  }
+  .center {
+    width: 100%;
+    padding: 20px;
+    
   }
 
   .btn {
