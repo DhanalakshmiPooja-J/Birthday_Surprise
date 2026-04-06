@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Confetti from "react-confetti";
-import { ReactTyped } from "react-typed";
+// import { ReactTyped } from "react-typed";
 import BirthdayCard from "./BirthdayCard";
 import "./App.css";
 
