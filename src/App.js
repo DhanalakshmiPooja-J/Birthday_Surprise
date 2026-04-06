@@ -23,19 +23,7 @@ function App() {
             <source src="/birthdaySong.mp3" type="audio/mp3" />
           </audio>
           <BirthdayCard />
-          {/* <div className="typed">
-            <ReactTyped
-              strings={[
-                "Keep shining! 🎉",
-                "Keep smiling always! 😎",
-                "Stay awesome always! 😍",
-               
-              ]}
-              typeSpeed={50}
-              backSpeed={30}
-              loop
-            />
-          </div> */}
+        
 
          
         </>
