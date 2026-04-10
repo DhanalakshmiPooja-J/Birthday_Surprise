@@ -16,7 +16,7 @@ function BirthdayCard() {
 
         <h1 className="title">
           Happy Birthday <br />
-          <span>Vishwa!</span>
+          <span>Dear!</span>
         </h1>
 
         <p className="message">

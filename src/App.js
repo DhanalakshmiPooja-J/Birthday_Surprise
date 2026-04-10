@@ -12,7 +12,7 @@ function App() {
       {!open ? (
         <div className="landing">
           <button className="btn" onClick={() => setOpen(true)}>
-            🎁 Click for your Birthday Surprise Vishwa 
+            🎁 Click for your Birthday Surprise
           </button>
         </div>
       ) : (
